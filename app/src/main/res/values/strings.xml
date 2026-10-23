@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+
+    <!-- Экран задания диапазона -->
+    <string name="title_range">Загадайте число и укажите диапазон</string>
+    <string name="hint_begin">Начало диапазона</string>
+    <string name="hint_end">Конец диапазона</string>
+    <string name="button_guess">Угадать!</string>
+
+    <!-- Ошибки ввода -->
+    <string name="error_empty">Заполните оба поля</string>
+    <string name="error_not_number">Введите целые числа</string>
+    <string name="error_range">Начало диапазона должно быть меньше конца</string>
+
+    <!-- Экран угадывания -->
+    <string name="YourNumberIs">Вы загадали число</string>
+    <string name="yes">ДА</string>
+    <string name="noGreater">не, больше</string>
+    <string name="noLesser">не, меньше</string>
+
+    <string name="result_win">Угадал! Число %1$d, попыток: %2$d</string>
+    <string name="result_not_found">Такого числа нет — ответы противоречат друг другу</string>
+    <string name="button_restart">Начать заново</string>
+</resources>
